@@ -26,6 +26,7 @@
     "mobx-persist": "^0.4.1",
     "mobx-react-lite": "^3.2.0",
     "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
