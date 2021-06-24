@@ -1,10 +1,11 @@
 import axios from 'axios'
 import { GeoPosition } from './LocationService'
 import { WeatherInterface } from '../stores/WeatherStore'
+import { WEATHER_API_URL, WEATHER_API_KEY } from '@env'
 
-const appid = 'd68155d373179f215e43ba571f9acb10'
+const appid = WEATHER_API_KEY
 const client = axios.create({
-  baseURL: 'https://api.openweathermap.org/data/2.5'
+  baseURL: WEATHER_API_URL
 })
 
 export const getWeatherNow = async ({ long, lat }: GeoPosition): Promise<WeatherInterface> => {

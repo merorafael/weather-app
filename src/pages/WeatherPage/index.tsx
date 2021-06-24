@@ -101,12 +101,12 @@ const WeatherPage: React.FC<WeatherPageProps> = observer(({ weatherStore }) => {
             <WeatherDataView>
               <DataView>
                 <WeatherNow now={{
-                  unit: weatherStore?.now.unit,
-                  city: weatherStore?.now.city,
-                  condition: weatherStore?.now.condition,
-                  temp: weatherStore?.now.temp,
-                  min: weatherStore?.now.min,
-                  max: weatherStore?.now.max
+                  unit: weatherStore.now.unit,
+                  city: weatherStore.now.city,
+                  condition: weatherStore.now.condition,
+                  temp: weatherStore.now.temp,
+                  min: weatherStore.now.min,
+                  max: weatherStore.now.max
                 }} />
               </DataView>
               <ActionView>

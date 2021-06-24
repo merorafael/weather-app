@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components/native'
 import i18n from '../../translations/loader'
 import { WeatherInterface } from '../../stores/WeatherStore'
-import { observer } from 'mobx-react-lite'
 
 const MainView = styled.View`
     flex-direction: column;
