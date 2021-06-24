@@ -8,9 +8,9 @@ How to run
 
 ### System requirements
 
-- Node.js 11 or above
-- Expo CLI 4.5 or above
-- Yarn (is optional, but recommended)
+- [Node.js](https://nodejs.org/en/) 11 or above
+- [Expo CLI](https://docs.expo.io/) 4.5 or above
+- [Yarn](https://yarnpkg.com/getting-started/install) (is optional, but recommended)
 
 ### Step 1 - Change .env file
 
