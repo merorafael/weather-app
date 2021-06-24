@@ -1,0 +1,37 @@
+{
+    "no_data_available": "No available data",
+    "location": {
+    },
+    "week_days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+    "conditions": {
+        "rain": "Rain",
+        "clear": "Clear",
+        "thunderstorm": "Thunderstorm",
+        "clouds": "Clouds",
+        "snow": "Snow",
+        "drizzle": "Drizzle",
+        "haze": "Haze",
+        "mist": "Mist"
+    },
+    "temp": {
+        "current_range": "H:%{max}⁰ L:%{min}⁰"
+    },
+    "now": "Now",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset",
+    "chance_rain": "Chance of rain",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "feels_like": "Feels like",
+    "precipitation": "Precipitation",
+    "pressure": "Pressure",
+    "visibility": "Visibility",
+    "uv_index": "UV Index"
+}
