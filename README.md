@@ -12,7 +12,13 @@ How to run
 - Expo CLI 4.5 or above
 - Yarn (is optional, but recommended)
 
-### Step 1 - Starting Metro Server (used by Expo)
+### Step 1 - Change .env file
+
+This application uses OpenWeather API to get weather data. You need to register yourself in [OpenWeather](https://openweathermap.org/) and put your access token on the enviroment variable `WEATHER_API_KEY` in the `.env` file.
+
+**Warning:** If you do not have an account in OpenWeather and need to register a new account, your access token may have a delay to be accessible.
+
+### Step 2 - Starting Metro Server (used by Expo)
 
 Metro Server is the resource responsibly to starts your application on your phone or on a Android/iOS simulator. You can start this server using the command below.
 
@@ -20,13 +26,13 @@ Metro Server is the resource responsibly to starts your application on your phon
 $ yarn start
 ```
 
-### Step 2.1 - Starting the application on your phone
+### Step 3.1 - Starting the application on your phone
 
 You can start this application on your phone using the Expo application. Search on your Play Store(Android) or App Store(iOS) and install Expo.
 
 After installing Expo, open your Camera app or a QR code reader on your phone. Read the QR code shown on your PC.
 
-### Step 2.2 - Starting the application on an mobile simulator
+### Step 3.2 - Starting the application on an mobile simulator
 
 Firstly, you need to open your Android/iOS simulator. After your Android/iOS simulator is started, you need to start this application interacting with the Expo terminal or Expo Developer Tools on your browser.
 
