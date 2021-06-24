@@ -95,3 +95,11 @@ Applied concepts
 - i18n localization
 - Single responsibility file structure
 - Componentes by reusability
+
+Future changes suggestions
+--------------------------
+
+- Show on the screen another weather data(like humidity, pressure, feels like, wind speed, etc..);
+- Different backgrounds for day and night;
+- Be able to show weather for specific regions and not only for current position;
+- Local weather data persist using AsyncStorage and mobx-persist to show the last weather if the device does not have internet access;
