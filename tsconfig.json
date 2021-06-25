@@ -3,10 +3,10 @@
   "compilerOptions": {
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "strict": true,
-    "types": [
-      "./src/types"
-    ]
+    "strict": true
   },
-  "types": ["styled-components-react-native"]
+  "types": [
+    "./src/types",
+    "styled-components-react-native"
+  ]
 }
