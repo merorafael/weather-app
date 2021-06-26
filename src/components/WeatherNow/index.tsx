@@ -30,9 +30,9 @@ const WeatherDisplay = styled.View`
 `
 
 const Icon = styled(MaterialCommunityIcons)`
-  text-shadow-color: #444;
-  text-shadow-offset: 1px 2px;
-  text-shadow-radius: 4px;
+  text-shadow-color: #555;
+  text-shadow-offset: 1px 1px;
+  text-shadow-radius: 1px;
   color: #FFF;
 `
 
@@ -41,9 +41,9 @@ const WeatherIcon = styled(Icon)`
 `
 
 const Text = styled.Text`
-  text-shadow-color: #444;
-  text-shadow-offset: 1px 2px;
-  text-shadow-radius: 4px;
+  text-shadow-color: #555;
+  text-shadow-offset: 1px 1px;
+  text-shadow-radius: 1px;
   color: #fff;
 `
 

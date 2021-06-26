@@ -3,6 +3,12 @@ weather-app
 
 A simple weather app for demonstrating react-native skills.
 
+Application screenshots
+-----------------------
+
+![clouds theme](./docs/images/application_screen01.png)
+![clear theme](./docs/images/application_screen02.png)
+
 How to run
 ----------
 
