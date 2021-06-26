@@ -71,9 +71,6 @@ export class Weather implements WeatherInterface {
     }
 
     const currentTime = moment()
-    console.log(((this.sunrise < currentTime) && (this.sunset > currentTime))
-      ? day
-      : night)
     return ((this.sunrise < currentTime) && (this.sunset > currentTime))
       ? day
       : night

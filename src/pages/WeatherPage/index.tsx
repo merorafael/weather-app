@@ -4,6 +4,7 @@ import { observer } from 'mobx-react-lite'
 import { StatusBar } from 'expo-status-bar'
 import { Video } from 'expo-av'
 import Constants from 'expo-constants'
+import * as ScreenOrientation from 'expo-screen-orientation'
 import styled, { css } from 'styled-components/native'
 
 import i18n from '@/translations/loader'
@@ -70,7 +71,7 @@ interface WeatherPageProps {
 
 const WeatherPage: React.FC<WeatherPageProps> = observer(({ weatherStore }) => {
   const [errorMessage, setErrorMessage] = useState<String>()
-
+  ScreenOrientation.unlockAsync()
   useEffect(() => {
     watchPosition(async currentPosition => {
       try {

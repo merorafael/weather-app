@@ -6,8 +6,15 @@ A simple weather app for demonstrating react-native skills.
 Application screenshots
 -----------------------
 
+### Portrait Mode
+
 ![clouds theme](./docs/images/application_screen01.png)
 ![clear theme](./docs/images/application_screen02.png)
+
+### Landscape Mode
+
+![clouds theme](./docs/images/application_screen01_landscape.png)
+![clear theme](./docs/images/application_screen02_landscape.png)
 
 How to run
 ----------
