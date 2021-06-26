@@ -23,6 +23,10 @@
     "temp": {
         "current_range": "H:%{max}⁰ L:%{min}⁰"
     },
+    "errors": {
+        "get_position": "Failed to get current position, check the location permission and/or try to reopen the app.",
+        "get_openweather_data": "Failed to get OpenWeather data, try to reopen the app."
+    },
     "now": "Now",
     "sunrise": "Sunrise",
     "sunset": "Sunset",
